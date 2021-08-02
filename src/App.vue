@@ -18,6 +18,7 @@ html, body {
 	width: 100%;
 	height: 100%;
 	margin: 0;
+	font-family: 'Lato', sans-serif;
 }
 
 input, textarea {
@@ -25,10 +26,25 @@ input, textarea {
 	border: none;
 	outline: none;
 	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+}
+
+button {
+	border: none;
+	background: transparent;
+	display: flex;
+}
+
+button:hover {
+	transition: .3s ease;
+	cursor: pointer;
+}
+
+h2 {
+	font-weight: 400;
 }
 
 #app {
-	font-family: Avenir, Helvetica, Arial, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	width: 100%;
